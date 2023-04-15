@@ -14,12 +14,12 @@ namespace Animal_.models {
         public PetShop() { 
             Cat cat1 = new Cat("Tom", "Male", 1, 20, 10, 1);
             Cat cat2 = new Cat("Luna", "Female", 2, 30, 20, 10);
-            Dog dog1 = new Dog("Tom", "Male", 1, 20, 10, 1);
-            Dog dog2 = new Dog("Luna", "Female", 2, 30, 20, 10);
-            Bird bird1 = new Bird("Tom", "Male", 1, 20, 10, 1);
-            Bird bird2 = new Bird("Luna", "Female", 2, 30, 20, 10);
-            Fish fish1 = new Fish("Tom", "Male", 1, 20, 10, 1);
-            Fish fish2 = new Fish("Luna", "Female", 2, 30, 20, 10);
+            Dog dog1 = new Dog("Max", "Male", 1, 20, 10, 1);
+            Dog dog2 = new Dog("Bella", "Female", 2, 30, 20, 10);
+            Bird bird1 = new Bird("Blue", "Male", 1, 20, 10, 1);
+            Bird bird2 = new Bird("Lucky", "Female", 2, 30, 20, 10);
+            Fish fish1 = new Fish("Calamari", "Male", 1, 20, 10, 1);
+            Fish fish2 = new Fish("Clam", "Female", 2, 30, 20, 10);
 
             cats.Add(cat1);
             cats.Add(cat2);
@@ -31,6 +31,8 @@ namespace Animal_.models {
             fishes.Add(fish2);
 
         }
+
+        // Functions
 
         public void RemoveByNickNameCats(string nickName) {
             foreach (var item in cats) {
@@ -54,6 +56,30 @@ namespace Animal_.models {
             foreach (var item in fishes) {
                 if (item.Name == nickName) fishes.Remove(item);
             }
+        }
+
+        public Cat ReturnByNickNameCat(string nickName) {
+            foreach (var item in cats) {
+                if (item.Name == nickName) return item;
+            }return new Cat("", "", 0, 0, 0, 0);
+        }
+
+        public Dog ReturnByNickNameDog(string nickName) {
+            foreach (var item in dogs) {
+                if (item.Name == nickName) return item;
+            }return new Dog("", "", 0, 0, 0, 0);
+        }
+        
+        public Bird ReturnByNickNameBird(string nickName) {
+            foreach (var item in birds) {
+                if (item.Name == nickName) return item;
+            }return new Bird("", "", 0, 0, 0, 0);
+        }
+
+        public Fish ReturnByNickNameFish(string nickName) {
+            foreach (var item in fishes) {
+                if (item.Name == nickName) return item;
+            }return new Fish("", "", 0, 0, 0, 0);
         }
 
         public void show() {

@@ -50,7 +50,7 @@ namespace Animal_.models {
         // ToString
 
         public override string ToString() {
-            return $"Nickname : {Name}\nGender : {Gender}\nAge : {Age}\nPrice : {Price}\nEnergy : {Mealquantity}\n";
+            return $"Nickname : {Name}\nGender : {Gender}\nAge : {Age}\nPrice : {Price}\nEnergy : {Energy}\nMeal Qunatity : {Mealquantity}\n";
         }
 
     }
