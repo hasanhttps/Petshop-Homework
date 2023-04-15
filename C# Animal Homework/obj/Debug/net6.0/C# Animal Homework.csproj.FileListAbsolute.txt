@@ -1,0 +1,15 @@
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\bin\Debug\net6.0\C# Animal Homework.exe
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\bin\Debug\net6.0\C# Animal Homework.deps.json
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\bin\Debug\net6.0\C# Animal Homework.runtimeconfig.json
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\bin\Debug\net6.0\C# Animal Homework.dll
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\bin\Debug\net6.0\C# Animal Homework.pdb
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.AssemblyInfoInputs.cache
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.AssemblyInfo.cs
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.dll
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\refint\C# Animal Homework.dll
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.pdb
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\C# Animal Homework.genruntimeconfig.cache
+C:\Users\hasan\source\repos\C# Animal Homework\C# Animal Homework\obj\Debug\net6.0\ref\C# Animal Homework.dll
